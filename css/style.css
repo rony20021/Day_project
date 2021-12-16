@@ -1,0 +1,129 @@
+* {
+    margin: 0%;
+    padding: 0%;
+
+}
+
+.social-area {
+    background-color: #191919;
+    height: 30px;
+}
+
+.social-icon-1 a {
+    text-decoration: none;
+    color: rgba(255, 255, 255, 0.719);
+    margin: 5px;
+}
+
+.social-icon-1 i {
+    margin: 7px 10px;
+}
+
+
+
+.social-icon-1 a:hover {
+    cursor: text;
+    color: white;
+    transition: 0.7s ease;
+}
+
+.social-icon-1 i {
+    color: rgba(255, 0, 0, 0.719);
+
+}
+
+.social-icon-2 i {
+    color: rgba(255, 255, 255, 0.719);
+    margin: 7px 10px;
+
+}
+
+.social-icon-2 i:hover {
+    color: white;
+    transition: 0.7s ease;
+}
+
+.section-navbar {
+    margin: 0%;
+    padding: 0%;
+    background-color: #3a3939;
+   
+    
+
+}
+.navbar{
+   padding-top: 0%;
+   padding-bottom: 0%;
+}
+.navbar ul li a{
+  margin:0px 5px;
+   line-height: 45px;
+    
+    
+   
+}
+.navbar ul li a:hover{
+    background-color: red;
+    transition: 0.6s ease;
+
+}
+.active{
+    background-color: red;
+}
+.navbar-light .navbar-nav .nav-link.active, .navbar-light .navbar-nav .show>.nav-link{
+    color: white;
+}
+.navbar-light .navbar-nav .nav-link {
+    color: rgb(255, 255, 255);
+}
+.navbar-light .navbar-brand {
+    color: white;
+    font-weight: bold;
+}
+.section-banner{
+   background-image: linear-gradient( rgba(5, 2, 2, 0.486), rgba(0, 0, 0, 0.479)),url(/img/hero-bg.jpg);
+   background-position: center;
+   background-size: cover;
+   height: 851px;
+   width: 1047;
+   background-attachment: fixed;
+}
+
+
+.banner-text-body{
+    
+    margin-top: 320px;
+}
+.banner-text-body h1,h4{
+    color: white;
+}
+.Get-btn{
+    width: 160px;
+    height: 50px;
+    border:1px solid white;
+    background-color: transparent;
+    color: white;
+ transition: 0.7s ease;
+    
+
+}
+.Get-btn:hover{
+    background-color: #cc1616;
+}
+.content-area{
+    margin-top: 50px;
+}
+
+
+.content-body{
+    margin: 0px 50px;
+  
+}
+.content-img-area{
+    margin: 50px;
+    background-color: red;
+}
+.content-img img{
+    width: 636px;
+    height: 447px;
+}
